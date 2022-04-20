@@ -1,4 +1,4 @@
-.dsc-carousel {
+.dms-carousel {
     width: 100%;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@
         margin: auto;
         display: flex;
         justify-content: space-between;
-        >i {
+        >span.material-icons {
             opacity: 0.7;
             color: #fff;
             font-size: 25px;
@@ -89,7 +89,7 @@
 }
 
 @media screen and (max-width: 460px) {
-    .dsc-carousel {
+    .dms-carousel {
         height: 100vh;
     }
     h1 {
